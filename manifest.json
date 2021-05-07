@@ -1,7 +1,7 @@
 {
   "vendor": "jonathanramirez",
   "name": "store-theme",
-  "version": "4.3.4",
+  "version": "4.3.5",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
