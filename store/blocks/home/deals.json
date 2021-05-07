@@ -19,6 +19,7 @@
   },
   "image#deal1": {
     "props": {
+      "blockClass":"tienda-image-estandar",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
       "maxHeight": "24px"
     }
@@ -39,6 +40,7 @@
     "title":"Apenas en site-editor",
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
+      "blockClass":"tienda-image-estandar",
       "maxHeight": "24px",
       "title": "Titulo HTML del elemento",
       "alt": "Texto alternativo sobre la image"
@@ -58,6 +60,7 @@
   },
   "image#deal3": {
     "props": {
+      "blockClass":["tienda-image-estandar","tienda-image-oscuro"],
       "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
       "maxHeight": "24px"
     }
@@ -76,6 +79,7 @@
   },
   "image#deal4": {
     "props": {
+      "blockClass":"tienda-image-estandar",
       "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
       "maxHeight": "24px"
     }

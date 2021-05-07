@@ -35,7 +35,7 @@
   },
   "flex-layout.row#3-desktop": {
     "props": {
-      "blockClass": ["menu-link","otro","emasun"],
+      "blockClass": "menu-link",
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,

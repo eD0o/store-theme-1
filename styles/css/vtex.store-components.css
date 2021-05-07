@@ -111,3 +111,11 @@
   font-weight: bold;
   font-size: 30px;
 }
+
+.imageElement--tienda-image-oscuro {
+  background: #03034e;
+}
+
+.imageElement--tienda-image-estandar {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+}

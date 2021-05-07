@@ -114,7 +114,7 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\n Want to know more?**",
+      "text": "**VTEX DEPLOY .\n Want to know more?**",
       "blockClass": "question"
     }
   },
