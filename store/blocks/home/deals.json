@@ -36,9 +36,12 @@
     ]
   },
   "image#deal2": {
+    "title":"Apenas en site-editor",
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "maxHeight": "24px",
+      "title": "Titulo HTML del elemento",
+      "alt": "Texto alternativo sobre la image"
     }
   },
   "rich-text#deal2": {

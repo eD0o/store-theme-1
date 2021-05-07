@@ -9,19 +9,44 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
+      "flex-layout.row#teste",
       "rich-text#question",
       "rich-text#link",
       "newsletter"
     ]
   },
 
+  "flex-layout.row#teste":{
+    "title": "Linea Teste",
+    "children":["hello-world"],
+    "props":{
+      "fullWidth":true
+    }
+  },
+
+  "rich-text#ejemplo":{
+    "title": "Texto Ejemplo",
+    "props":{
+      "text":"# Texto Principal",
+      "textAlignment": "center"
+    }
+  },
+
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
+      "height": 1024,
       "images": [
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
@@ -34,7 +59,7 @@
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 2,
         "tablet": 1,
         "phone": 1
       },
@@ -89,7 +114,7 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "text": "**This is an example store built using the VTEX platform.\n Want to know more?**",
       "blockClass": "question"
     }
   },

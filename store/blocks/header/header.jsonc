@@ -28,13 +28,14 @@
     }
   },
   "notification.bar#home": {
+    "title": "Texto Promocional - Teste",
     "props": {
       "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
     }
   },
   "flex-layout.row#3-desktop": {
     "props": {
-      "blockClass": "menu-link",
+      "blockClass": ["menu-link","otro","emasun"],
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,

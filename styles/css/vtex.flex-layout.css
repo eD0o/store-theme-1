@@ -3,6 +3,10 @@
   padding: 0 0.5rem;
 }
 
+.flexRowContent--otro{
+  border: 10px solid green;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
