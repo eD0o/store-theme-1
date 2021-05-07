@@ -114,7 +114,7 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**VTEX DEPLOY .\n Want to know more?**",
+      "text": "**USANDO WORKSPACE BACKUP .\n Want to know more?**",
       "blockClass": "question"
     }
   },
