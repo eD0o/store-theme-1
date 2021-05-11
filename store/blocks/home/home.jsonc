@@ -12,8 +12,42 @@
       "flex-layout.row#teste",
       "rich-text#question",
       "rich-text#link",
-      "newsletter"
+      "newsletter",
+      "back-to-top-button",
+
+      "responsive-layout.desktop#text-desk",
+      "responsive-layout.tablet#text-tablet",
+      "responsive-layout.phone#text-phone"
     ]
+  },
+
+  "responsive-layout.desktop#text-desk": {
+    "children": ["flex-layout.row#deals"]
+  },
+  "responsive-layout.tablet#text-tablet": {
+    "children": ["info-card#home"]
+  },
+  "responsive-layout.phone#text-phone": {
+    "children": ["list-context.product-list#demo1"]
+  },
+
+  "rich-text#desktop": {
+    "props": {
+      "text": "# This will only show up on desktop.",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#tablet": {
+    "props": {
+      "text": "# This will only show up on tablet.",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#phone": {
+    "props": {
+      "text": "# This will only show up on phone.",
+      "blockClass": "title"
+    }
   },
 
   "flex-layout.row#teste":{
@@ -27,7 +61,7 @@
   "rich-text#ejemplo":{
     "title": "Texto Ejemplo",
     "props":{
-      "text":"# Texto Principal",
+      "text":"Texto Principal",
       "textAlignment": "center"
     }
   },

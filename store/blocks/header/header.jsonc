@@ -7,7 +7,6 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
@@ -43,10 +42,50 @@
     },
     "children": [
       "vtex.menu@2.x:menu#websites",
+      "modal-trigger#ejemplo",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#institutional"
     ]
   },
+
+  "modal-trigger#ejemplo": {
+    "children": [
+      "rich-text#ejemploo",
+      "modal-layout#ejemplo"
+    ]
+  },
+  "rich-text#ejemploo": {
+    "props": {
+      "text": "MODAL",
+      "blockClass":"texto-modal"
+    }
+  },
+  "modal-layout#ejemplo": {
+    "children": [
+      "flex-layout.col#container",
+      "modal-actions.close#close-btn"
+    ]
+  },
+
+  "flex-layout.col#container": {
+    "children": [
+      "hello-world",
+      "list-context.image-list#demo"
+    ]
+  },
+
+  "rich-text#modal-content": {
+    "props": {
+      "text": "Hellooo"
+    }
+  },
+
+  "modal-actions.close#close-btn": {
+    "props": {
+      "blockClass": "btnClose-close-btn"
+    }
+  },
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -126,10 +165,44 @@
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#more",
+      "modal-trigger#ejemplo-mobile"
+      
     ],
     "props": {
       "orientation": "vertical"
+    }
+  },
+
+  "modal-trigger#ejemplo-mobile":{
+    "children":[
+      "rich-text#texto-activador-mobile",
+      "modal-layout#container-modal-mobile"
+    ]
+  },
+
+  "rich-text#texto-activador-mobile":{
+    "props":{
+      "text":"MODAL MOBILE"
+    }
+  },
+
+  "modal-layout#container-modal-mobile":{
+    "children":[
+      "flex-layout.row#container-modal-mobile",
+      "modal-actions.close#btn-cerrar"
+    ]
+  },
+
+  "flex-layout.row#container-modal-mobile":{
+    "children":[
+      "hello-world"
+    ]
+  },
+
+  "modal-actions.close#btn-cerrar":{
+    "props":{
+      "blockClass":"btnClose-mobile"
     }
   },
 

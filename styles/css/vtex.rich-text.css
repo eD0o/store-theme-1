@@ -88,3 +88,41 @@
     line-height: 1.3em;
   }
 }
+
+
+.wrapper--texto-modal{
+  color: #fff;
+  cursor: pointer;
+}
+
+/*MOBILE*/
+
+@media screen and (max-width:1024px) {
+  .paragraph--question {
+    border: 1px solid black;
+  }
+}
+
+/*phone*/
+@media screen and (max-width: 640px) {
+  .paragraph--question {
+    color: pink !important;
+  }
+}
+
+/*tablet*/
+@media screen and (min-width: 640px) and (max-width: 1024px){
+  .paragraph--question {
+    color: red !important;
+  }
+}
+
+
+/*DESKTOP*/
+
+@media screen and (min-width: 1024px){
+  .paragraph--question {
+    color: aqua !important;
+  }
+}
+
