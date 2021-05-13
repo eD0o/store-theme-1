@@ -1,0 +1,17 @@
+{
+    "store.custom#test2":{
+        "children":[
+            "flex-layout.row#containerlp"
+        ]
+    },
+
+    "flex-layout.row#containerlp":{
+        "children":["rich-text#texto"]
+    },
+
+    "rich-text#texto":{
+        "props":{
+            "text": "## Nueva Landing Page"
+        }
+    }
+}

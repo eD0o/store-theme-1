@@ -1,14 +1,25 @@
 {
-  "vtex.menu@2.x:menu#category-menu": {
+  "vtex.menu@2.x:menu#menus-header": {
     "props": {
       "experimentalOptimizeRendering": true
     },
     "children": [
+      "category-menu",
       "menu-item#category-apparel",
       "menu-item#category-home",
       "menu-item#more"
     ]
   },
+
+  "category-menu": {
+    "props": {
+      "blockClass":"category-menu-estilo",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center"
+    }
+  },
+
   "menu-item#category-apparel": {
     "props": {
       "id": "menu-item-category-apparel",
@@ -103,8 +114,71 @@
         "tagTitle": "Home & Decor",
         "text": "Home & Decor"
       }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-home-submenu"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-home-submenu":{
+    "props":{
+      "orientation":"horizontal"
+    },
+    "children":[
+      "menu-item#ejemplo1",
+      "menu-item#ejemplo2",
+      "menu-item#ejemplo3"
+    ]
+  },
+
+  "menu-item#ejemplo1": {
+    "props": {
+      "id": "menu-item-ejemplo1-test-link",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/test",
+        "noFollow": false,
+        "tagTitle": "Test",
+        "text": "Test"
+      }
     }
   },
+
+  "menu-item#ejemplo2": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Ejemplo 2",
+        "text": "Ejemplo 2"
+      }
+    }
+  },
+
+  "menu-item#ejemplo3": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Ejemplo 3",
+        "text": "Ejemplo 3"
+      }
+    }
+  },
+
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",

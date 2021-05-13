@@ -148,7 +148,7 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**USANDO WORKSPACE BACKUP .\n Want to know more?**",
+      "text": "[VTEX IO](https://help.vtex.com/en/faq/what-is-vtex-io).\n # **titulo principale bold!**\n*This is italic*",
       "blockClass": "question"
     }
   },

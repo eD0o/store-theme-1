@@ -1,0 +1,25 @@
+{
+  "store.custom#test": {
+    "children": [
+      "flex-layout.row#test",
+      "hello-world",
+      "list-context.image-list#demo",
+      "newsletter"
+    ]
+  },
+
+  "flex-layout.row#test": {
+    "props": {
+      "blockClass": "test"
+    },
+    "children": [
+      "rich-text#test"
+    ]
+  },
+
+  "rich-text#test": {
+    "props": {
+      "text": "## Testando LP"
+    }
+  }
+}

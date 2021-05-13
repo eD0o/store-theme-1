@@ -108,7 +108,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
+      "flex-layout.col#menus-header",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
@@ -122,11 +122,11 @@
     },
     "children": ["logo#desktop"]
   },
-  "flex-layout.col#category-menu": {
+  "flex-layout.col#menus-header": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": ["vtex.menu@2.x:menu#menus-header"]
   },
   "logo#desktop": {
     "props": {

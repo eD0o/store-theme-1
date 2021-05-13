@@ -19,6 +19,8 @@
   },
   "image#deal1": {
     "props": {
+      "alt": "Texto alternativo sobre la image",
+      "title": "Titulo HTML del elemento",
       "blockClass":"tienda-image-estandar",
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
       "maxHeight": "24px"
