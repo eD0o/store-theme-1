@@ -1,6 +1,13 @@
 {
   "order-placed": {
-    "blocks": ["op-header", "op-order"]
+    "blocks": ["op-header", "op-order","op-footer"]
+  },
+
+  "op-footer":{
+    "children":[
+      "hello-world",
+      "op-confirmation-message"
+    ]
   },
   "op-header": {
     "children": [

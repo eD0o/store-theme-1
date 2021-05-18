@@ -9,6 +9,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
+      "tab-layout#home",
       "flex-layout.row#teste",
       "rich-text#question",
       "rich-text#link",
@@ -19,6 +20,124 @@
       "responsive-layout.tablet#text-tablet",
       "responsive-layout.phone#text-phone"
     ]
+  },
+
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home3"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2",
+      "tab-list.item#home3",
+      "tab-list.item#home4",
+      "tab-list.item#home5"
+    ]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Home 1"
+      // "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Home 2"
+    }
+  },
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "home3",
+      "label": "Home 3",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home4": {
+    "props": {
+      "tabId": "home4",
+      "label": "Home 4"
+    }
+  },
+  "tab-list.item#home5": {
+    "props": {
+      "tabId": "home5",
+      "label": "Home 5"
+    }
+  },
+
+  "tab-content#home": {
+     "children": [
+       "tab-content.item#home1",
+       "tab-content.item#home2",
+       "tab-content.item#home3",
+       "tab-content.item#home4",
+       "tab-content.item#home5"
+     ]
+   },
+
+   "tab-content.item#home1": {
+     "children": [
+      "rich-text#tab1"
+     ],
+     "props": {
+       "tabId": "home1"
+     }
+   },
+   "tab-content.item#home2": {
+     "children": [
+      "rich-text#tab2"
+     ],
+     "props": {
+       "tabId": "home2"
+     }
+   },
+
+   "tab-content.item#home3": {
+    "children": [
+     "info-card#home"
+    ],
+    "props": {
+      "tabId": "home3"
+    }
+  },
+
+  "tab-content.item#home4": {
+    "children": [
+     "list-context.product-list#demo1"
+    ],
+    "props": {
+      "tabId": "home4"
+    }
+  },
+
+  "tab-content.item#home5": {
+    "children": [
+     "flex-layout.row#deals"
+    ],
+    "props": {
+      "tabId": "home5"
+    }
+  },
+
+   "rich-text#tab1": {
+    "props": {
+      "text": "Contenido de Tab 1."
+    }
+  },
+
+  "rich-text#tab2": {
+    "props": {
+      "text": "Contenido de Tab 2."
+    }
   },
 
   "responsive-layout.desktop#text-desk": {

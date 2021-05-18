@@ -1,0 +1,9 @@
+.confirmationTitle {
+    font-size: 0;
+}
+
+.confirmationTitle::after{
+    content: "Pedido Finalizado by ::after!";
+    font-size: 2rem;
+    font-weight: 700;
+}
