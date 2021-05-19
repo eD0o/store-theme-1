@@ -8,6 +8,8 @@
       "flex-layout.row#deals",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
+      "iframe#spotify",
+      "video#vtex-quem-somos",
       "info-card#home",
       "tab-layout#home",
       "flex-layout.row#teste",
@@ -20,6 +22,26 @@
       "responsive-layout.tablet#text-tablet",
       "responsive-layout.phone#text-phone"
     ]
+  },
+
+  "iframe#spotify":{
+    "props":{
+      "src": "https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3",
+      "width": 380,
+      "height": 380
+    }
+  },
+
+  "video#vtex-quem-somos": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=wygFqZXMIco",
+      "blockClass": "videoEl"
+    }
   },
 
   "tab-layout#home": {

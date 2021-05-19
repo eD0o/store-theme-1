@@ -1,3 +1,8 @@
+
+.paragraph{
+  line-height: unset;
+}
+
 .container--deals {
   color: #ffffff;
   text-align: center;
@@ -93,6 +98,7 @@
 .wrapper--texto-modal{
   color: #fff;
   cursor: pointer;
+  margin: 0 1.5rem;
 }
 
 /*MOBILE*/
@@ -126,3 +132,10 @@
   }
 }
 
+.paragraph--overlay-text-trigger{
+  color: #fff;
+}
+
+.wrapper--overlay-text-trigger{
+  margin: 0 1.5rem;
+}

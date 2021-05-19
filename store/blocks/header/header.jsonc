@@ -43,9 +43,39 @@
     "children": [
       "vtex.menu@2.x:menu#websites",
       "modal-trigger#ejemplo",
+      "overlay-trigger",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#institutional"
     ]
+  },
+
+  "overlay-trigger": {
+    "children": [
+      "rich-text#overlay-text-trigger",
+      "overlay-layout"    
+    ]
+  },
+
+  "rich-text#overlay-text-trigger": {
+    "props": {
+      "text": "Overlay Text Trigger",
+      "blockClass": "overlay-text-trigger"
+    }
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "left",
+      "backdrop": "visible",
+      "showArrow": true
+    },
+    "children": [
+      "rich-text#linkk"
+    ]
+  },
+  "rich-text#linkk": {
+    "props": {
+      "text": "Texto contenido"
+    }
   },
 
   "modal-trigger#ejemplo": {
@@ -56,7 +86,7 @@
   },
   "rich-text#ejemploo": {
     "props": {
-      "text": "MODAL",
+      "text": "Modal",
       "blockClass":"texto-modal"
     }
   },
@@ -165,9 +195,7 @@
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
-      "menu-item#more",
-      "modal-trigger#ejemplo-mobile"
-      
+      "menu-item#more"
     ],
     "props": {
       "orientation": "vertical"
