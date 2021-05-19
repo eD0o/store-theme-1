@@ -1,25 +1,92 @@
 {
   "store.custom#test": {
     "children": [
-      "flex-layout.row#test",
-      "hello-world",
-      "list-context.image-list#demo",
-      "newsletter"
+      "flex-layout.row#main-row"
     ]
   },
 
-  "flex-layout.row#test": {
-    "props": {
-      "blockClass": "test"
-    },
+  "flex-layout.row#main-row": {
     "children": [
-      "rich-text#test"
+      "flex-layout.col#main-column"
     ]
   },
 
-  "rich-text#test": {
+  "flex-layout.col#main-column": {
+    "children": [
+      "rich-text#title",
+      "disclosure-layout#simple",
+      "disclosure-layout-group#group"
+    ]
+  },
+
+  "rich-text#title": {
     "props": {
-      "text": "## Testando LP"
+      "text": "## Titulo"
+    }
+  },
+
+  "disclosure-layout#simple": {
+    "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+  },
+  "disclosure-trigger#simple": {
+    "children": ["rich-text#question"]
+  },
+  "disclosure-content#simple": {
+    "children": ["rich-text#answer"]
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "Texto Butón"
+    }
+  },
+  "rich-text#answer": {
+    "props": {
+      "text": "Texto Contenido 1"
+    }
+  },
+
+
+  "disclosure-layout-group#group": {
+    "children": ["disclosure-layout#first", "disclosure-layout#second"]
+  },
+
+  "disclosure-layout#first": {
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "children": ["rich-text#question1"]
+  },
+  "disclosure-content#first": {
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "Texto botón grupo 1"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Texto Contenido 1."
+    }
+  },
+
+  "disclosure-layout#second": {
+    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  },
+  "disclosure-trigger#second": {
+    "children": ["rich-text#question2"]
+  },
+  "disclosure-content#second": {
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "Texto botón grupo 2"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "Texto Contenido 2."
     }
   }
 }
