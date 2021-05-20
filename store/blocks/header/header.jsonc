@@ -64,12 +64,12 @@
   },
   "overlay-layout": {
     "props": {
-      "placement": "left",
+      "placement": "bottom",
       "backdrop": "visible",
       "showArrow": true
     },
     "children": [
-      "rich-text#linkk"
+      "logo#desktop"
     ]
   },
   "rich-text#linkk": {
@@ -188,14 +188,18 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": ["menu#drawer"],
+    "props":{
+      "slideDirection":"rightToLeft"
+    }
   },
 
   "menu#drawer": {
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#more",
+      "logo#mobile"
     ],
     "props": {
       "orientation": "vertical"

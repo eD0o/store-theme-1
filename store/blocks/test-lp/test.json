@@ -21,22 +21,26 @@
 
   "rich-text#title": {
     "props": {
-      "text": "## Titulo"
+      "text": "## Disclosure Layout - Ejemplo"
     }
   },
 
   "disclosure-layout#simple": {
     "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
   },
+
+
   "disclosure-trigger#simple": {
     "children": ["rich-text#question"]
   },
   "disclosure-content#simple": {
     "children": ["rich-text#answer"]
   },
+
+
   "rich-text#question": {
     "props": {
-      "text": "Texto Butón"
+      "text": "Texto Butón (trigger)"
     }
   },
   "rich-text#answer": {
@@ -47,7 +51,7 @@
 
 
   "disclosure-layout-group#group": {
-    "children": ["disclosure-layout#first", "disclosure-layout#second"]
+    "children": ["disclosure-layout#first", "disclosure-layout#second", "disclosure-layout#third"]
   },
 
   "disclosure-layout#first": {
@@ -87,6 +91,26 @@
   "rich-text#answer2": {
     "props": {
       "text": "Texto Contenido 2."
+    }
+  },
+
+  "disclosure-layout#third":{
+    "children":["disclosure-trigger#third","disclosure-content#third"]
+  },
+  "disclosure-trigger#third":{
+    "children":["rich-text#question3"]
+  },
+  "disclosure-content#third":{
+    "children":["rich-text#answer3"]
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "Texto botón grupo 3"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "Texto Contenido 3."
     }
   }
 }

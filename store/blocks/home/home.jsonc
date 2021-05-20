@@ -9,7 +9,9 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "iframe#spotify",
+      "iframe#maps",
       "video#vtex-quem-somos",
+      "video#ejemplo",
       "info-card#home",
       "tab-layout#home",
       "flex-layout.row#teste",
@@ -27,15 +29,40 @@
   "iframe#spotify":{
     "props":{
       "src": "https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3",
-      "width": 380,
-      "height": 380
+      "width": "300",
+      "height": "300"
     }
   },
 
+  "iframe#maps":{
+    "props":{
+      "src": "https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed",
+      "width": "300",
+      "height": "300"
+    }
+  },
+
+
+  "video#ejemplo":{
+    "props":{
+      "name": "Ejemplo",
+      "descripion": "Ejemplo",
+      "src": "https://www.youtube.com/watch?v=u6EArInagRM",
+      "width": "100%",
+      "height": "100%",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false
+    }
+  },
+
+
   "video#vtex-quem-somos": {
     "props": {
+      "name": "Quem somos",
+      "descripion": "Quem somos",
       "width": "100%",
-      "height": "600px",
+      "height": "100%",
       "loop": false,
       "autoPlay": true,
       "muted": false,
@@ -108,7 +135,8 @@
 
    "tab-content.item#home1": {
      "children": [
-      "rich-text#tab1"
+      "rich-text#tab1",
+      "disclosure-layout#simple"
      ],
      "props": {
        "tabId": "home1"
@@ -116,7 +144,8 @@
    },
    "tab-content.item#home2": {
      "children": [
-      "rich-text#tab2"
+      "rich-text#tab2",
+      "disclosure-layout-group#group"
      ],
      "props": {
        "tabId": "home2"
