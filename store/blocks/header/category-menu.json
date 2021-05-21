@@ -24,7 +24,6 @@
     "props": {
       "id": "menu-item-category-apparel",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -32,6 +31,9 @@
         "noFollow": false,
         "tagTitle": "Apparel & Accessories",
         "text": "Apparel & Accessories"
+      },
+      "iconProps": {
+        "id": "bnd-logo"
       }
     },
     "blocks": [
