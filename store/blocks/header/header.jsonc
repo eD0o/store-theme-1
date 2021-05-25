@@ -143,9 +143,18 @@
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart.v2"
+      "minicart.v2#desktop"
     ]
   },
+
+  "search-bar":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props":{
+      "blurOnSubmit": true,
+      "placeholder": "O que estas buscando ?"
+    }
+  },
+
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
@@ -178,7 +187,7 @@
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2"
+      "minicart.v2#mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",

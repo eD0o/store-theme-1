@@ -13,6 +13,7 @@
       "video#vtex-quem-somos",
       "video#ejemplo",
       "info-card#home",
+      "image#ejemplodia8",
       "tab-layout#home",
       "flex-layout.row#teste",
       "rich-text#question",
@@ -24,6 +25,12 @@
       "responsive-layout.tablet#text-tablet",
       "responsive-layout.phone#text-phone"
     ]
+  },
+
+  "image#ejemplodia8":{
+    "props":{
+      "src": "assets/images/ejemplo.png"
+    }
   },
 
   "iframe#spotify":{
