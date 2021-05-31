@@ -42,6 +42,7 @@
     },
     "children": [
       "vtex.menu@2.x:menu#websites",
+      "rich-text#1",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#institutional"
     ]
@@ -89,6 +90,7 @@
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
   "logo#desktop": {
+    "title": "Logo Desktop",
     "props": {
       "title": "Logo",
       "href": "/",

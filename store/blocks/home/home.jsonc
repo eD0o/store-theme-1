@@ -9,10 +9,48 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
+      "flex-layout.row#component",
+      "slider-layout#text-test",
       "rich-text#question",
       "rich-text#link",
       "newsletter"
     ]
+  },
+
+  "flex-layout.row#component":{
+    "children":["hello-world"]
+  },
+
+  "slider-layout#text-test": {
+    "title": "Slider Test",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel"
+    },
+    "children": ["rich-text#1", "rich-text#2", "rich-text#3", "rich-text#3", "rich-text#3", "rich-text#3", "rich-text#3"]
+  },
+
+  "rich-text#1": {
+    "props": {
+      "text": "Test1"
+    }
+  },
+
+  "rich-text#2": {
+    "props": {
+      "text": "Test2"
+    }
+  },
+  "rich-text#3": {
+    "props": {
+      "text": "Test3"
+    }
   },
 
   "list-context.image-list#demo": {
@@ -45,6 +83,7 @@
   },
 
   "rich-text#shelf-title": {
+    "title": "Titulo Vitrina",
     "props": {
       "text": "## Summer",
       "blockClass": "shelfTitle"

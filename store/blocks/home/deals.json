@@ -20,7 +20,10 @@
   "image#deal1": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
+      "maxHeight": "24px",
+      "link":{
+        "url": "https://www.google.com/"
+      }
     }
   },
   "rich-text#deal1": {
