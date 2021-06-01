@@ -179,6 +179,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass":"bold-text",
       "itemProps": {
         "type": "internal",
         "href": "/bags/necessaire",

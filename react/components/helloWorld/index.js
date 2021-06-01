@@ -1,9 +1,10 @@
 import React from 'react';
+import "./global.css"
 
 const helloWorld = () =>{
     return(
         <>
-            <p>VTEX IO Training - Day 2: 25/05/21</p>
+            <p className="main-text">VTEX IO Training - Day 3: 01/06/21</p>
         </>
     )
 }

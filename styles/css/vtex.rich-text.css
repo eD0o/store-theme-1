@@ -88,3 +88,19 @@
     line-height: 1.3em;
   }
 }
+
+.paragraph--texto-personalizado{
+  color: aqua;
+}
+
+.paragraph--text-border{
+  border: 1px solid aquamarine;
+}
+
+.paragraph--texto-background{
+  background: violet;
+}
+
+.paragraph--texto-bold{
+  font-weight: 700;
+}

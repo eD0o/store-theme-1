@@ -1,5 +1,9 @@
 {
     "hello-world": {
         "component": "helloWorld"
+    },
+
+    "slider-example": {
+        "component": "sliderExample"
     }
 }

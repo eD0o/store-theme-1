@@ -6,6 +6,7 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
+      "slider-example",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
@@ -38,12 +39,14 @@
 
   "rich-text#1": {
     "props": {
+      "blockClass": ["texto-personalizado","text-border", "texto-background"],
       "text": "Test1"
     }
   },
 
   "rich-text#2": {
     "props": {
+      "blockClass": ["texto-personalizado","texto-bold","text-border"],
       "text": "Test2"
     }
   },

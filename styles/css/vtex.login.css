@@ -1,0 +1,7 @@
+/* .container :global(.vtex-button__label){
+    display: none;
+} */
+
+:global(.vtex-button__label){
+    border: 1px solid red;
+}
