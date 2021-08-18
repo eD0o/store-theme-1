@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
+  "vendor": "nomedelatienda",
   "name": "store-theme",
-  "version": "4.3.0",
+  "version": "4.4.2",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -62,8 +62,6 @@
     "vtex.product-specifications": "1.x",
     "vtex.tab-layout": "0.x"
   },
-  "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x"
-  },
+  "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
