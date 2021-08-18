@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [4.4.3] - 2021-08-18
+
 ## [4.3.0] - 2021-01-14
 ### Added
 - Example of multiple search gallery layouts usage
