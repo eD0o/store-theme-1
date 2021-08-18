@@ -20,7 +20,8 @@
   "image#deal1": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
+      "maxHeight": "24px",
+      "blockClass": ["image-con-border","image-con-border-colorido"]
     }
   },
   "rich-text#deal1": {
@@ -38,7 +39,8 @@
   "image#deal2": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "maxHeight": "24px",
+      "blockClass": ["image-con-border"]
     }
   },
   "rich-text#deal2": {

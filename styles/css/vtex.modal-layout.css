@@ -87,3 +87,7 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
+
+:global(.vtex-login-2-x-container) :global(.vtex-button){
+  background: blue;
+}

@@ -1,0 +1,8 @@
+{
+    "testEjemplo":{
+        "component": "componentEjemplo"
+    },
+    "testEjemplo2":{
+        "component": "componenteSinEstilos"
+    }
+}

@@ -1,0 +1,7 @@
+.container :global(.vtex-button){
+    background: blue;
+}
+
+.container :global(.vtex-button){
+    border: 1px solid red;
+}
