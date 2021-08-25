@@ -1,0 +1,68 @@
+{
+    "tab-layout#ejemplo":{
+        "children":[
+            "tab-list#ejemplo",
+            "tab-content#ejemplo"
+        ],
+        "props":{
+            "defaultActiveTabId": "home1"
+        }
+    },
+    "tab-list#ejemplo":{
+        "children":[
+            "tab-list.item#buton-list-1",
+            "tab-list.item#buton-list-2"
+        ]
+    },
+    "tab-list.item#buton-list-1":{
+        "props":{
+            "tabId": "home1",
+            "label": "Buton 1",
+            "defaultActiveTabId": true
+        }
+    },
+
+    "tab-list.item#buton-list-2":{
+        "props":{
+            "tabId": "home2",
+            "label": "Buton 2"
+        }
+    },
+
+    "tab-content#ejemplo":{
+        "children":[
+            "tab-content.item#home1",
+            "tab-content.item#home2"
+        ]
+    },
+
+    "tab-content.item#home1":{
+        "props":{
+            "tabId":"home1"
+        },
+        "children":[
+            "rich-text#tab1"
+        ]
+    },
+
+    "tab-content.item#home2":{
+        "props":{
+            "tabId":"home2"
+        },
+        "children":[
+            "rich-text#tab2"
+        ]
+    },
+
+    "rich-text#tab1":{
+        "props":{
+            "text": "texto de tab 1"
+        }
+    },
+
+    "rich-text#tab2":{
+        "props":{
+            "text": "texto de tab 2"
+        }
+    }
+}

@@ -12,8 +12,48 @@
       "flex-layout.row#pruebandoComponente",
       "rich-text#question",
       "rich-text#link",
+
+      "responsive-layout.desktop#texto-desktop",
+      "responsive-layout.phone#texto-phone",
+      "responsive-layout.mobile#texto-mobile",
+
+      "modal-trigger#ejemplo",
+
+      "tab-layout#ejemplo",
+
       "newsletter"
     ]
+  },
+
+
+  "responsive-layout.desktop#texto-desktop":{
+    "children":["rich-text#desktop-ejemplo"]
+  },
+
+  "rich-text#desktop-ejemplo":{
+    "props":{
+      "text": "# solo para ordenadoras"
+    }
+  },
+
+  "responsive-layout.phone#texto-phone":{
+    "children":["rich-text#phone-ejemplo"]
+  },
+
+  "rich-text#phone-ejemplo":{
+    "props":{
+      "text": "# solo para telefonos"
+    }
+  },
+
+  "responsive-layout.mobile#texto-mobile":{
+    "children":["rich-text#mobile-ejemplo"]
+  },
+
+  "rich-text#mobile-ejemplo":{
+    "props":{
+      "text": "# para ambos telefono y tablet"
+    }
   },
 
   "flex-layout.row#pruebandoComponente":{

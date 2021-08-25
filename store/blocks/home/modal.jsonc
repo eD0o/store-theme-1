@@ -1,0 +1,47 @@
+{
+    "modal-trigger#ejemplo":{
+        "children":[
+            "rich-text#trigger-modal-ejemplo",
+            "modal-layout#container-modal-ejemplo"
+        ]
+        },
+
+        "rich-text#trigger-modal-ejemplo":{
+        "props":{
+            "text": "CLICK HERE"
+        }
+        },
+
+        "modal-layout#container-modal-ejemplo":{
+        "children":[
+            "flex-layout.row#wrapper-container-modal-ejemplo",
+            "modal-actions.close#close-modal-ejemplo"
+        ]
+        },
+
+        "flex-layout.row#wrapper-container-modal-ejemplo":{
+        "children":[
+            "flex-layout.col#wrapper-container-modal-ejemplo"
+        ]
+        },
+
+        "flex-layout.col#wrapper-container-modal-ejemplo":{
+        "children":[
+            "list-context.product-list#demo1",
+            // "rich-text#modal-content-texto"
+            "list-context.image-list#demo"
+        ]
+        },
+
+        "rich-text#modal-content-texto":{
+        "props":{
+            "text": "texto de ejemplo"
+        }
+        },
+
+        "modal-actions.close#close-modal-ejemplo":{
+        "props":{
+            "blockClass": "btnClose-close-btn"
+        }
+    }
+}

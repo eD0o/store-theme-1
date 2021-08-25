@@ -43,9 +43,41 @@
     "children": [
       "vtex.menu@2.x:menu#websites",
       "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "vtex.menu@2.x:menu#institutional",
+      "overlay-trigger#ejemplo"
     ]
   },
+
+  "overlay-trigger#ejemplo":{
+    "children":[
+      "rich-text#overlay-text-trigger",
+      "overlay-layout#contenido"
+    ]
+  },
+
+  "rich-text#overlay-text-trigger":{
+    "props":{
+      "text": "Overlay Trigger"
+    }
+  },
+
+  "overlay-layout#contenido":{
+    "props":{
+      "placement": "top",
+      "backdrop": "none",
+      "showArrow": false
+    },
+    "children":[
+      "rich-text#overlay-link"
+    ]
+  },
+
+  "rich-text#overlay-link":{
+    "props":{
+      "text": "Texto Contenido"
+    }
+  },
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"

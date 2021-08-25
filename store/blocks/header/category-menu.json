@@ -1,7 +1,8 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "blockClass": "category-menu"
     },
     "children": [
       "menu-item#category-apparel",
@@ -58,8 +59,63 @@
         "tagTitle": "Clothing",
         "text": "Clothing"
       }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#teste"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#teste": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-teste"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#menu-teste": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#test",
+      "menu-item#test2"
+    ]
+  },
+
+  "menu-item#test": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "Test"
+      }
     }
   },
+
+  "menu-item#test2": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "Test2"
+      }
+    }
+  },
+
   "menu-item#category-apparel-accessories": {
     "props": {
       "id": "menu-item-category-apparel-accessories",

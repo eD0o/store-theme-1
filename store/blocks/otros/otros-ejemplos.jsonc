@@ -1,0 +1,50 @@
+{
+    "store.custom#otros-ejemplos":{
+        "blocks":[
+            "flex-layout.row#container-general"
+        ]
+    },
+
+    "flex-layout.row#container-general":{
+        "children":[
+            "flex-layout.col#content-otros"
+        ]
+    },
+
+    "flex-layout.col#content-otros":{
+        "children":[
+            "disclosure-layout#simple"
+        ]
+    },
+
+    "disclosure-layout#simple":{
+        "children":[
+            "disclosure-trigger#activador-pregunta",
+            "disclosure-content#contenido-respuesta"
+        ]
+    },
+
+    "disclosure-trigger#activador-pregunta":{
+        "children":[
+            "rich-text#pregunta"
+        ]
+    },
+
+    "disclosure-content#contenido-respuesta":{
+        "children":[
+            "rich-text#respuesta"
+        ]
+    },
+
+    "rich-text#pregunta":{
+        "props":{
+            "text": "pregunta"
+        }
+    },
+
+    "rich-text#respuesta":{
+        "props":{
+            "text": "respuesta"
+        }
+    }
+}
